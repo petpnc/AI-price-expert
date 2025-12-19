@@ -1,8 +1,8 @@
-# 💎 ValueAI - Inteligentné Oceňovanie Predmetov
+# ValueAI - Inteligentné Oceňovanie Predmetov
 
 AI aplikácia na okamžité ocenenie predmetov pomocou Google Gemini AI.
 
-## 🚀 Rýchly Štart
+##  Rýchly Štart
 
 ### 1. Nainštaluj závislosti
 
@@ -33,7 +33,7 @@ streamlit run app.py
 
 Aplikácia sa otvorí na: `http://localhost:8501`
 
-## 🔐 Demo Prihlasovacie Kľúče
+##  Demo Prihlasovacie Kľúče
 
 Po spustení použi jeden z týchto kľúčov:
 
@@ -42,7 +42,7 @@ Po spustení použi jeden z týchto kľúčov:
 - `CLIENT-100` - 50 kreditov
 - `PREMIUM-2024` - 100 kreditov
 
-## ➕ Pridanie Nových Licenčných Kľúčov
+##  Pridanie Nových Licenčných Kľúčov
 
 Otvor `credits.json` a pridaj nový riadok:
 
@@ -56,7 +56,7 @@ Otvor `credits.json` a pridaj nový riadok:
 
 Formát: `"NAZOV-KLUCA": pocet_kreditov`
 
-## 📱 Prístup z Mobilu
+##  Prístup z Mobilu
 
 Ak chceš otvoriť na mobile v rovnakej sieti:
 
@@ -70,21 +70,21 @@ Ak chceš otvoriť na mobile v rovnakej sieti:
    ```
    (použi svoju IP adresu)
 
-## ✨ Funkcie
+##  Funkcie
 
-✅ Autentifikácia pomocou licenčných kľúčov
-✅ Nahranie fotky alebo fotenie cez kameru
-✅ AI analýza pomocou Google Gemini
-✅ Odhad cien (nové/použité/zberateľské)
-✅ Vygenerovaný predajný popis
-✅ Mobilne responzívne
-✅ Správa kreditov
-✅ **💳 Platobná brána (Stripe)**
-✅ **⚙️ Admin panel pre správu**
-✅ **💰 4 cenové plány (€5 - €150)**
-✅ **📊 Payment tracking a reporting**
+ Autentifikácia pomocou licenčných kľúčov
+ Nahranie fotky alebo fotenie cez kameru
+ AI analýza pomocou Google Gemini
+ Odhad cien (nové/použité/zberateľské)
+ Vygenerovaný predajný popis
+ Mobilne responzívne
+ Správa kreditov
+ ** Platobná brána (Stripe)**
+ ** Admin panel pre správu**
+ ** 4 cenové plány (€5 - €150)**
+ ** Payment tracking a reporting**
 
-## 📁 Štruktúra Projektu
+##  Štruktúra Projektu
 
 ```
 valueai/
@@ -101,14 +101,14 @@ valueai/
 └── DEPLOYMENT.md            # Návod na cloud deploy
 ```
 
-## 💡 Tipy Pre Najlepšie Výsledky
+##  Tipy Pre Najlepšie Výsledky
 
 - Použi dobré osvetlenie
 - Fotka celého predmetu
 - Ukáž značky a logo
 - Vyhni rozmazaným fotkám
 
-## 🆘 Problémy?
+##  Problémy?
 
 Ak niečo nefunguje:
 
@@ -116,13 +116,13 @@ Ak niečo nefunguje:
 2. **Nemôžem sa prihlásiť**: Skontroluj `credits.json`
 3. **Chyba inštalácie**: Skús `pip install --upgrade pip` a potom znova `pip install -r requirements.txt`
 
-## 📄 Licencia
+##  Licencia
 
 Pre komerčné použitie kontaktuj autora.
 
 ---
 
-## 💳 Platobný Systém
+##  Platobný Systém
 
 ValueAI obsahuje kompletný platobný systém pomocou Stripe:
 
@@ -143,15 +143,15 @@ ValueAI obsahuje kompletný platobný systém pomocou Stripe:
 
 ### Funkcie
 
-✅ Automatické generovanie licenčných kľúčov  
-✅ Bezpečné platby cez Stripe  
-✅ Email notifikácie  
-✅ Payment tracking  
-✅ Test mode pre development  
+ Automatické generovanie licenčných kľúčov  
+ Bezpečné platby cez Stripe  
+ Email notifikácie  
+ Payment tracking  
+ Test mode pre development  
 
 ---
 
-## ⚙️ Admin Panel
+##  Admin Panel
 
 Spravuj licencie a platby cez admin panel:
 
@@ -168,7 +168,3 @@ streamlit run admin.py
 
 **Prihlasovacie heslo:** Nastav v `secrets.toml` (`ADMIN_PASSWORD`)
 
----
-
-Vytvoril: Claude + p
-Dátum: December 2024
